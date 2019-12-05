@@ -8,7 +8,13 @@ p {font-family: 'Roboto', sans-serif; font-color: black; font-size: 12px;} /* hr
 a {font-family: 'Calistoga', cursive;/* font format; href hover */ text-decoration: none; color: DarkSlateGrey;}
 a:hover {text-decoration: none;  color:goldenrod;} /* footer */
 footer {font-family: 'Roboto', sans-serif;font-color: black; font-size: 10px; position: absolute; bottom: 0; width: inherit; height:50px;}
-
+.myimg{
+      width:150px;
+      height:150px;
+      object-fit:cover;
+      border-radius:50%;
+      margin: auto
+    }
 /* -----------------------------------------------------------------------------
 /* INDEX.HTML GUIDELINES
 /* -----------------------------------------------------------------------------

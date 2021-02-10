@@ -80,11 +80,11 @@ nav ul li:nth-child(2):after {
 	line-height: 88px;
 }
 nav ul li:nth-child(3):after {
-	content:"<a href="./teaching.html" style="color:white;">Teaching</a>";
+	content:"Teaching";
 	line-height: 85px;
 }
 nav ul li:nth-child(4):after {
-	content: "<a href="./sayhi.html" style="color:white;">Say hi</a>";
+	content: "Say hi";
 	line-height: 70px;
 }
 

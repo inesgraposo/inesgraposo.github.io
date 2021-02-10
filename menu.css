@@ -1,0 +1,107 @@
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+
+:after {
+	content: "";
+}
+
+section {
+  position: relative;
+  left: 100px;
+}
+
+h1 {
+  margin:0px 0px 10px 100px;
+ font-family: 'Calistoga', cursive; font-size:22px;
+}
+
+h2 {
+	margin:100px 0px 10px 100px;
+	font-family: 'Calistoga', cursive; font-size:22px;
+  font-size: 24px;
+}
+
+body {
+  padding: 100px 0;
+	background: lightgrey;
+  color: white;
+  max-width:640px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+  line-height:1.4;
+  font-smoothing: anti-aliased;
+}
+
+h3{font-family: 'Calistoga', cursive; font-size:16px;}
+p {  margin: 10px 0 10px 100px; font-family: 'Roboto', sans-serif; font-color: black; font-size: 12px; max-width:640px;} /* href text */
+a {font-family: 'Calistoga', cursive;/* font format; href hover */ text-decoration: none; color: DarkSlateGrey;}
+a:hover {text-decoration: none;  color:goldenrod;} /* footer */
+
+nav {
+  float: left;
+	position: relative;
+	top: 150;
+  left: -50;
+	background: transparent;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	position: relative;
+  width: 70px;
+  cursor: pointer;
+	background: #e1ad01;
+	transition:all .4s ease-out;
+}
+
+nav ul li:after {
+	position: absolute;
+	background: white;
+	color: #e1ad01;
+	top:0;
+	left: 70px;
+	width: 70px; height: 100%;
+  opacity:.5;
+  transform: perspective(400px) rotateY(90deg);
+	transform-origin: 0 100%;
+	transition:all .5s ease-out;
+}
+
+nav ul li:nth-child(1):after {
+	content: "Home";
+	line-height: 88px;
+}
+nav ul li:nth-child(2):after {
+	content: "Research";
+	line-height: 88px;
+}
+nav ul li:nth-child(3):after {
+	content: "Teaching";
+	line-height: 85px;
+}
+nav ul li:nth-child(4):after {
+	content: "Say hi";
+	line-height: 70px;
+}
+
+nav ul li:hover {
+	transform: translateX(-70px);
+}
+
+nav ul li:hover:after {
+  opacity: 1;
+	transform: perspective(400px) rotateY(0deg) scale(1) ;
+}
+
+
+nav ul li > div {
+	display: inline-block;
+	padding: 25px 0;
+	background: transparent;
+}
+
+nav ul li div { position: relative; }

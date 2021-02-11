@@ -26,7 +26,7 @@ body {
   padding: 100px 0;
 	background: lightgrey;
   color: white;
-  max-width:640px;
+  max-width:650px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
   line-height:1.4;
@@ -34,7 +34,7 @@ body {
 }
 
 h3{font-family: 'Calistoga', cursive; font-size:16px;}
-p {  margin: 10px 0 10px 100px; font-family: 'Roboto', sans-serif; font-color: black; font-size: 12px; max-width:640px;} /* href text */
+p {  margin: 10px 0 10px 100px; font-family: 'Roboto', sans-serif; font-color: black; font-size: 12px; max-width:650px;} /* href text */
 a {font-family: 'Calistoga', cursive;/* font format; href hover */ text-decoration: none; color: DarkSlateGrey;}
 a:hover {text-decoration: none;  color:goldenrod;} /* footer */
 

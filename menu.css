@@ -12,30 +12,37 @@ section {
 }
 
 h1 {
-  margin:0px 0px 10px 100px;
- font-family: 'Calistoga', cursive; font-size:22px;
+margin:80px 0px 10px 100px; color:DarkSlateGrey;
+ font-family: 'Roboto Slab', serif; font-size:22px;
 }
 
 h2 {
-	margin:100px 0px 10px 100px;
-	font-family: 'Calistoga', cursive; font-size:22px;
+	margin:100px 0px 10px 100px; color:DarkSlateGrey;
+	font-family: 'Roboto Slab', serif; font-size:22px;
   font-size: 24px;
 }
 
 body {
   padding: 100px 0;
-	background: silver;
-  color: white;
+	background: WhiteSmoke;
+  color: DimGrey;
   max-width:650px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
   line-height:1.4;
   font-smoothing: anti-aliased;
 }
 
-h3{font-family: 'Calistoga', cursive; font-size:18px;}
-p {  margin: 10px 0 10px 100px; font-family: 'Roboto', sans-serif; font-color: black; font-size: 12px; max-width:650px;} /* href text */
-a {font-family: 'Calistoga', cursive;/* font format; href hover */ text-decoration: none; color: DarkSlateGrey;}
+img{
+	display: block;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+}
+
+h3{margin:20px 0px 10px 100px; color: SlateGrey; font-family: 'Roboto Slab', serif;; font-size:18px; max-width:650px}
+p {  margin: 10px 0 10px 100px; font-family: 'Roboto Slab', serif; font-color: black; font-size: 12px; max-width:650px;} /* href text */
+a {font-family: 'Roboto Slab', serif;/* font format; href hover */ text-decoration: none; color: SlateGrey;}
 a:hover {text-decoration: none;  color:goldenrod;} /* footer */
 
 nav {

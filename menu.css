@@ -1,114 +1,32 @@
-*,*:before,*:after {
-	box-sizing: border-box;
-}
-
-:after {
-	content: "";
-}
-
-section {
-  position: relative;
-  left: 100px;
-}
-
-h1 {
-margin:80px 0px 10px 100px; color:DarkSlateGrey;
- font-family: 'Roboto Slab', serif; font-size:22px;
-}
-
-h2 {
-	margin:100px 0px 10px 100px; color:DarkSlateGrey;
-	font-family: 'Roboto Slab', serif; font-size:22px;
-  font-size: 24px;
-}
-
-body {
-  padding: 100px 0;
-	background: WhiteSmoke;
-  color: DimGrey;
-  max-width:650px;
-	font-family: 'Roboto Slab', serif;
-	font-size: 14px;
-  line-height:1.4;
-  font-smoothing: anti-aliased;
-}
-
-img{
-	display: block;
-	width: auto;
-	height: auto;
-	object-fit: contain;
-}
-
-h3{margin:20px 0px 10px 100px; color: SlateGrey; font-family: 'Roboto Slab', serif;; font-size:18px; max-width:650px}
-p {  margin: 10px 0 10px 100px; font-family: 'Roboto Slab', serif; font-color: black; font-size: 12px; max-width:650px;} /* href text */
-a {font-family: 'Roboto Slab', serif;/* font format; href hover */ text-decoration: none; color: SlateGrey;}
-a:hover {text-decoration: none;  color:goldenrod;} /* footer */
-
-nav {
-  float: left;
-	position: relative;
-	top: 150;
-  left: -50;
-	background: transparent;
-}
-
-nav ul {
-	text-align: center;
-}
-
-nav ul li {
-	position: relative;
-  width: 70px;
-  cursor: pointer;
-	background: #e1ad01;
-	transition:all .4s ease-out;
-}
-
-nav ul li:after {
-	position: absolute;
-	background: white;
-	color: #e1ad01;
-	top:0;
-	left: 70px;
-	width: 70px; height: 100%;
-  opacity:.5;
-  transform: perspective(400px) rotateY(90deg);
-	transform-origin: 0 100%;
-	transition:all .5s ease-out;
-}
-
-nav ul li:nth-child(1):after {
-	content: "Home";
-	line-height: 88px;
-}
-nav ul li:nth-child(2):after {
-	content: "Research";
-	line-height: 88px;
-}
-nav ul li:nth-child(3):after {
-	content:"Teaching";
-	line-height: 85px;
-}
-nav ul li:nth-child(4):after {
-	content: "Say hi";
-	line-height: 70px;
-}
-
-nav ul li:hover {
-	transform: translateX(-70px);
-}
-
-nav ul li:hover:after {
-  opacity: 1;
-	transform: perspective(400px) rotateY(0deg) scale(1) ;
-}
+<div class="site">
+<head>
+<title>In&ecircs Gon&ccedilalves Raposo - Home </title>
+<link rel="stylesheet" href="./menu.css">
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab:wght@400&display=swap');
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
 
 
-nav ul li > div {
-	display: inline-block;
-	padding: 25px 0;
-	background: transparent;
-}
 
-nav ul li div { position: relative; }
+<section>
+  <center><h1>In&ecircs Gon&ccedilalves Raposo </h1>
+	<br>
+  <ul>
+    <li><a href='./index.html'>Home</a></li>
+    <li><a href='./research.html'>Research</a></li>
+    <li><a href='./teaching.html'>Teaching</a></li>
+    <li><a href='./sayhi.html' >Say hi!</a></li>
+  </ul>
+	<img src="./photo website.png"; style="vertical-align:middle;margin:0px; width:80%; height:80%; padding:0px"/></center>
+	<body>
+  <p> Welcome to my website! I am a fourth year Ph.D. in Economics student at <a href='https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/'> Bocconi University</a> interested in macroeconomics, labour and behavioural economics.</p>
+  <p> My current research aims to understand how workers' and firms' expectations shape individual decisions, aggregate labour outcomes and optimal policy design. </p>
+ <p> This website is updated once in a blue moon (rather once in a year). If you wish to know more about what I am doing, the best way is to <a href="https://inesgraposo.github.io/sayhi.html">get in touch</a>.</p>
+</body>
+</div>
+</section>
+
+

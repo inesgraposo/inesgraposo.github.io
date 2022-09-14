@@ -1,32 +1,98 @@
-<div class="site">
-<head>
-<title>In&ecircs Gon&ccedilalves Raposo - Home </title>
-<link rel="stylesheet" href="./menu.css">
- <style>
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab:wght@400&display=swap');
-</style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+
+
+.no-sidebar .site {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 656px;
+    padding: 54px 108px;
+}
+
+.site {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 656px;
+    padding: 54px 90px;
+	align-items: center;
+	align-content: center;
+}
+
+
+:after {
+	/* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+	-webkit-box-sizing: border-box;
+	/* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+	   -moz-box-sizing: border-box;
+	/* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+			box-sizing: border-box;
+}
+
+section {
+	display: block;
+}
+
+.column {
+	float: left;
+	width: 100%;
+  }
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	text-align: center;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	text-align: center;
+	padding: 0px 21px 16px;
+	text-decoration: none;
+  }
+
+
+h1 {
+ color:DarkSlateGrey;
+ font-family: 'Roboto Slab', serif; font-size:22px;
+ text-align: center; 
+}
+
+h2 {
+ color:DarkSlateGrey;
+ font-family: 'Roboto Slab', serif; font-size:22px;
+ font-size: 24px;
+}
+
+body {
+  padding: 100px 0;
+  background: WhiteSmoke;
+  color: DimGrey;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  line-height:1.4;
+  font-smoothing: anti-aliased;
+}
+
+img{
+	display: block;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+	max-width: 100%;
+}
 
 
 
-<section>
-  <center><h1>In&ecircs Gon&ccedilalves Raposo </h1>
-	<br>
-  <ul>
-    <li><a href='./index.html'>Home</a></li>
-    <li><a href='./research.html'>Research</a></li>
-    <li><a href='./teaching.html'>Teaching</a></li>
-    <li><a href='./sayhi.html' >Say hi!</a></li>
-  </ul>
-	<img src="./photo website.png"; style="vertical-align:middle;margin:0px; width:80%; height:80%; padding:0px"/></center>
-	<body>
-  <p> Welcome to my website! I am a fourth year Ph.D. in Economics student at <a href='https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/'> Bocconi University</a> interested in macroeconomics, labour and behavioural economics.</p>
-  <p> My current research aims to understand how workers' and firms' expectations shape individual decisions, aggregate labour outcomes and optimal policy design. </p>
- <p> This website is updated once in a blue moon (rather once in a year). If you wish to know more about what I am doing, the best way is to <a href="https://inesgraposo.github.io/sayhi.html">get in touch</a>.</p>
-</body>
-</div>
-</section>
+h3{color: SlateGrey; font-family: 'Roboto Slab', serif;; font-size:18px;}
+p {font-family: 'Roboto Slab', serif; font-size: 12px;} /* href text */
+a {font-family: 'Roboto Slab', serif;/* font format; href hover */ text-decoration: none; color: SlateGrey;}
+a:hover {text-decoration: none;  color:goldenrod;} /* footer */
 
 

@@ -1,73 +1,95 @@
-*,*:before,*:after {
-	box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-
 .no-sidebar .site {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 656px;
-    padding: 54px 108px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 656px;
+  padding: 54px 90px;
 }
 
 .site {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 656px;
-    padding: 54px 90px;
-	align-items: center;
-	align-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 656px;
+  padding: 54px 90px;
+  align-items: center;
+  align-content: center;
 }
 
-
 :after {
-	/* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-	-webkit-box-sizing: border-box;
-	/* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
-	   -moz-box-sizing: border-box;
-	/* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
-			box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 section {
-	display: block;
+  display: block;
 }
 
 .column {
-	float: left;
-	width: 100%;
-  }
+  float: left;
+  width: 100%;
+}
 
 ul {
-	list-style-type: none;
-	overflow: hidden;
-	position: -webkit-sticky; /* Safari */
-	position: sticky;
-	text-align: center;
-  }
-  
-  li {
-	float: left;
-  }
-  
-  li a {
-	display: block;
-	text-align: center;
-	padding: 0px 21px 16px;
-	text-decoration: none;
-  }
+  list-style-type: none;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 0px 21px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.dropdown.open {
+  max-height: 800px; /* Adjust the height as needed */
+}
+
+.abstract-toggle {
+  position: relative;
+}
+
+.abstract-toggle::after {
+  content: "[abstract]";
+  display: inline-block;
+  color: goldenrod;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.abstract-toggle.open::after {
+  content: "Hide Abstract";
+}
 
 h1 {
- color:DarkSlateGrey;
- font-family: 'Roboto Slab', serif; font-size:22px;
- text-align: center; 
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  text-align: center;
 }
 
 h2 {
- color:DarkSlateGrey;
- font-family: 'Roboto Slab', serif; font-size:22px;
- font-size: 24px;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
 }
 
 body {
@@ -76,23 +98,47 @@ body {
   color: DimGrey;
   font-family: 'Roboto Slab', serif;
   font-size: 14px;
-  line-height:1.4;
-  font-smoothing: anti-aliased;
+  line-height: 1.4;
+  font-smoothing: antialiased;
 }
 
-img{
-	display: block;
-	width: auto;
-	height: auto;
-	object-fit: contain;
-	max-width: 100%;
+h3 {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
 }
 
+h4 {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+}
 
+.paper h4 {
+  margin-bottom: 0px; /* Adjust the value as needed */
+}
 
-h3{color: SlateGrey; font-family: 'Roboto Slab', serif;; font-size:18px;}
-p {font-family: 'Roboto Slab', serif; font-size: 12px;} /* href text */
-a {font-family: 'Roboto Slab', serif;/* font format; href hover */ text-decoration: none; color: SlateGrey;}
-a:hover {text-decoration: none;  color:goldenrod;} /* footer */
+.paper p {
+  margin-top: 2px;
+  margin-bottom: 8px; /* Adjust the value as needed */
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  /* font format; href hover */
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: goldenrod;
+}
+
 
 

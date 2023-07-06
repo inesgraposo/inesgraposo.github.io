@@ -1,39 +1,78 @@
 <div class="site">
-<head>
-<title> In&ecircs Gon&ccedilalves Raposo - Research </title>
-<link rel="stylesheet" href="menu.css">
- <style>
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab:wght@400&display=swap');
-</style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
+  <head>
+  <title>In&ecircs Gon&ccedilalves Raposo - Research</title>
+  <link rel="stylesheet" href="menu.css">
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab:wght@400&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
 
-
-<section>
-  <center><h2>Research</h2>
-  <br>
-  <ul>
-    <li><a href='./index.html'>Home</a></li>
-    <li><a href='./research.html'>Research</a></li>
-    <li><a href='./teaching.html'>Teaching</a></li>
-    <li><a href='./sayhi.html' >Say hi!</a></li>
-  </ul>
-</center>
-  <br>
-  <br>
   <body>
-    <img src="./rbanner.JPG";
-    style= float:left;width:150px;height:150px;object-fit:cover;border-radius:50%;vertical-align:middle;margin-right:50px; />
-    <p><b>Work in Progress:</b>
-    <br>
-    <br><i> - The Part and the Whole. Unemployment expectations of the employed.</i> (Manuscript available soon!)
-    <br><i> - Job loss beliefs, on-the-job search and wage cuts.</i> (Manuscript available soon!)</p>
-    <br>
-    <br>
-    <br>
-    <p> A list of academic and policy publications is available on my <a href='https://github.com/inesgraposo/cv'> CV</a>.</p>
-  </body>
-</section>
-</div>
+    <section>
+      <center><h2>Research</h2>
+        <br>
+        <ul>
+          <li><a href='./index.html'>Home</a></li>
+          <li><a href='./research.html'>Research</a></li>
+          <li><a href='./teaching.html'>Teaching</a></li>
+          <li><a href='./sayhi.html'>Say hi!</a></li>
+        </ul>
+        <img src="./rbanner.JPG" style="float:center;width:180px;height:180px;object-fit:cover;border-radius:50%;" />
+      </center>
+      <br>
+      <br>
+      <ul>
+        <li>
+          <div class="paper">
+            <h4>The Part and the Whole: Unemployment Expectations of the Employed <span class="abstract-toggle"></span></h4>
+            <div class="dropdown">
+              <p align="justify">How do workers’ beliefs about idiosyncratic unemployment risk and aggregate unemployment change in response to public information? This paper uses expectations data representative of the United States household head population to measure updates in workers’ beliefs following announcements about local and nationwide events. By exploiting the variation in the day of survey responses, I employ an event study specification to measure the evolution of average beliefs in the days before and after lay-off announcements. A highly salient lay-off causes average employed workers to report a higher probability of losing their job compared to the previous day (3.5 percentage points). On the day after a lay-off was reported in the news, workers from the states where this lay-off took place update their beliefs about the future evolution of national unemployment by 12 percentage points more than workers from other states. Conversely, official announcements from the Federal Open Market Committee do not affect workers' labor market beliefs. When analysed at a weekly frequency, changes in average beliefs about personal and national unemployment persist up to three weeks following a widely reported event. The evidence presented in this paper suggests that workers use local idiosyncratic events to update beliefs about aggregate conditions, but not official announcements. </p>
+            </div>
+          <p> Presented at the <a href='https://economics.unibocconi.eu/news/7th-workshop-subjective-expectations-and-phd-minicourse' target="_blank" style="display: inline; padding:0;">7th Workshop on Subjective Expectations</a> (Bocconi University, Milan, June 12-13 2023) </p>
+          </div>
+        </li>
+        <li>
+          <div class="paper">
+            <h4>Job loss beliefs, on-the-job search and wage cuts <span class="abstract-toggle"></span></h4>
+            <div class="dropdown">
+              <p align="justify">How do workers’ perceived risk of job loss affect on-the-job search and wage growth? Using a representative survey, I show that employed workers systematically over-estimate their job loss probability compared to actual separation rates into unemployment. This is at odds with models where workers decide based on perfectly observable job values. I incorporate these findings into a partial equilibrium model of job search with heterogeneous separation risk and imperfect information. In this model, workers hold dispersed priors about the job loss risk they face and learn from survival. As time advances and individuals are not laid-off from their current jobs, they perceive their jobs to be safer, become choosier and therefore are less likely to switch to a new job. Survival and learning are determined by true job loss risk. In equilibrium, job-to-job flows are driven by workers who overestimate their separation risk. Compared to full information, workers are willing to accept lower wages in exchange for higher perceived job safety.</p>
+            </div>
+        <p>Presented at the <a href="https://bse.eu/news/10th-bse-phd-jamboree"  target="_blank" style="display: inline; padding: 0;">10th BSE PhD Jamboree</a> (Barcelona, May 11-12 2023) and at the <a href="https://www.eui.eu/events?id=556235" target="_blank" style="display: inline; padding: 0;">1st EUI PhD Workshop</a> (Florence, June 20-21 2023)</p>
+          </div>
+        </li>
+        <li>
+          <div class="paper">
+            <h4>Inflation Expectations, Wage Bargaining and On-the-Job Search - Insights from a Survey Experiment<span class="abstract-toggle"></span></h4>
+            <div class="dropdown">
+              <p align="justify"> In this paper, I design and run a survey experiment to test whether increases in inflation expectations have heterogeneous effects on individuals’ search behavior.</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+      <br>
+      <br>
+      <p>A list of academic and policy publications is available on my <a href='https://github.com/inesgraposo/cv'>CV</a>.</p>
+    </section>
 
+    <script>
+      // JavaScript code goes here
+      const abstractToggles = document.querySelectorAll('.abstract-toggle');
+
+      abstractToggles.forEach(toggle => {
+        toggle.addEventListener('click', (event) => {
+          event.preventDefault();
+          const dropdown = toggle.parentElement.nextElementSibling;
+          const isOpen = dropdown.classList.contains('open');
+
+          if (isOpen) {
+            dropdown.classList.remove('open');
+          } else {
+            dropdown.classList.add('open');
+          }
+        });
+      });
+  </script>
+  </body>
+</div>

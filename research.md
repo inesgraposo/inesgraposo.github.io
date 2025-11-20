@@ -3,6 +3,7 @@ layout: default
 title: Research
 ---
 
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/research.css">
 <script src="{{ site.baseurl }}/assets/js/research.js"></script>
 
@@ -59,4 +60,5 @@ Presented at the [10th BSE PhD Jamboree](https://bse.eu/news/10th-bse-phd-jambor
 
 A list of academic and policy publications is available on my  
 [CV](https://inesgraposo.github.io/cv_igr.pdf).
+
 

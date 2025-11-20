@@ -12,7 +12,7 @@ title: Inês Gonçalves Raposo
   <li><a href="https://inesgraposo.github.io/cv_igr.pdf">CV</a></li>
 </ul>
 
-![Profile photo](/assets/images/photo website.png)
+<!--![Profile photo](/assets/images/photo website.png)-->
 
 
 Welcome to my website! I hold a Ph.D. in Economics from  

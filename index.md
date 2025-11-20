@@ -15,7 +15,7 @@ description: "Inês Gonçalves Raposo - PhD"
     <!-- <li style="display:inline; margin:0 10px;"><a href="/sayhi">Say hi!</a></li> -->
   </ul>
 
-  <img src="/assets/images/photo.png" alt="Photo" class="profile-photo">
+  <img src="{{ site.baseurl }}/assets/images/photo.png" alt="Photo" class="profile-photo">
 
   <p>
     Welcome to my website! I hold a Ph.D. in Economics from 

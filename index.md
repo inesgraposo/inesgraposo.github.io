@@ -5,8 +5,6 @@ description: "Inês Gonçalves Raposo - PhD"
 ---
 
 <section>
-  <h1 style="text-align:center;">Inês Gonçalves Raposo</h1>
-
   <ul style="text-align:center; list-style:none; padding:0;">
     <li style="display:inline; margin:0 10px;"><a href="/">Home</a></li>
     <li style="display:inline; margin:0 10px;"><a href="https://inesgraposo.github.io/cv_igr.pdf">CV</a></li>
@@ -15,7 +13,7 @@ description: "Inês Gonçalves Raposo - PhD"
     <!-- <li style="display:inline; margin:0 10px;"><a href="/sayhi">Say hi!</a></li> -->
   </ul>
 
-  <img src="{{ site.baseurl }}/assets/images/photo.png" alt="Photo" class="profile-photo">
+  <img src="inesgraposo.github.io/assets/images/photo.png" alt="Photo" class="profile-photo">
 
   <p>
     Welcome to my website! I hold a Ph.D. in Economics from 

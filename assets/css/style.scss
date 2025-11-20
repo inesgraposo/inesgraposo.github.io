@@ -1,0 +1,52 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom overrides */
+a {
+  color: #50C878;  /* Emerald green */
+}
+
+a:hover {
+  color: darken(#50C878, 10%);
+}
+
+.profile-photo {
+  float: left;
+  margin-right: 20px;
+  max-width: 180px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Menu styling */
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Abstract toggle  */
+.abstract {
+  display: none;
+  margin-top: 10px;
+}
+
+.abstract.open {
+  display: block;
+}
+
+.abstract-toggle {
+  cursor: pointer;
+  font-weight: bold;
+  color: #1a5e3a; /* elegant green */
+}
+
+
+

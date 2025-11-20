@@ -12,8 +12,8 @@ title: Inês Gonçalves Raposo
   <li><a href="https://inesgraposo.github.io/cv_igr.pdf">CV</a></li>
 </ul>
 
+![Profile photo](/assets/images/photo website.png)
 
-<img src="{{ site.baseurl }}/assets/images/photo website.png" alt="Photo" style="max-width: 180px; border-radius: 50%; display:block; margin: 20px auto;">
 
 Welcome to my website! I hold a Ph.D. in Economics from  
 [Bocconi University](https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/).

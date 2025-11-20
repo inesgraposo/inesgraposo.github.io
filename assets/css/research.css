@@ -1,0 +1,14 @@
+.abstract {
+  display: none;
+  margin-top: 10px;
+}
+
+.abstract-toggle {
+  color: #0d9488; /* emerald green */
+  font-size: 0.9rem;
+}
+
+.abstract-toggle:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

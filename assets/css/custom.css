@@ -12,3 +12,6 @@
 .nav-menu a {
   color: #1a4c2a; /* emerald green */
 }
+a.github {
+  display: none;
+}

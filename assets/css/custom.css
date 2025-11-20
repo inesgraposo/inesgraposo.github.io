@@ -12,6 +12,8 @@
 .nav-menu a {
   color: #1a4c2a; /* emerald green */
 }
-a.github {
-  display: none;
+
+
+aside a[href*="github.com"] {
+  display: none !important;
 }

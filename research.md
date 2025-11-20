@@ -28,7 +28,7 @@ In this paper, I design and implement a survey of United States workers to study
 
 </div>
 
-Presented at the [2024 Royal Economic Society](https://res.org.uk/event-listing/res-2024-annual-conference/) (Belfast, March 25–27 2024), at the [ifo Dresden Workshop on Macroeconomics and Finance](https://www.ifo.de/en/event/2024-04-11/ifo-dresden-workshop-macroeconomics-and-international-finance-2024) (Dresden, April 11–12 2024).
+Presented at the [2024 Royal Economic Society](https://res.org.uk/event-listing/res-2024-annual-conference/) (Belfast, March 25–27 2024), [ifo Dresden Workshop on Macroeconomics and Finance](https://www.ifo.de/en/event/2024-04-11/ifo-dresden-workshop-macroeconomics-and-international-finance-2024) (Dresden, April 11–12 2024), [HWU Workshop on Frontiers of Macro-Labour Economics] (Edinburgh, December 12-13 2024), [Workshop on Frontiers in Measurement and Survey Methods] (Napoli, May 19-20 2025) 
 
 ---
 
@@ -60,5 +60,6 @@ Presented at the [10th BSE PhD Jamboree](https://bse.eu/news/10th-bse-phd-jambor
 
 A list of academic and policy publications is available on my  
 [CV](https://inesgraposo.github.io/cv_igr.pdf).
+
 
 

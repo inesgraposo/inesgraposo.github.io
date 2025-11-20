@@ -5,7 +5,13 @@ document.addEventListener("DOMContentLoaded", function () {
     toggle.style.cursor = "pointer";
 
     toggle.addEventListener("click", function () {
-      const abstract = this.nextElementSibling;
+      // find the next element with class 'abstract'
+      let abstract = this.nextElementSibling;
+      while (abstract && !abstract.classList.contains("abstract")) {
+        abstract = abstract.nextElementSibling;
+      }
+
+      if (!abstract) return; // no abstract found
 
       if (abstract.style.display === "block") {
         abstract.style.display = "none";

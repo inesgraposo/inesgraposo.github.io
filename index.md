@@ -6,11 +6,11 @@ description: "Inês Gonçalves Raposo - PhD"
 
 <img src="{{ site.baseurl }}/assets/images/photo.png" alt="Photo" class="profile-photo">
 
-<ul class="nav-menu">
-  <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li><a href="{{ site.baseurl }}/research">Research</a></li>
-  <li><a href="{{ site.baseurl }}/teaching">Teaching</a></li>
-  <li><a href="https://inesgraposo.github.io/cv_igr.pdf">CV</a></li>
+<ul>
+  <li><a href='/'>Home</a></li>
+  <li><a href='/cv_igr.pdf'>CV</a></li>
+  <li><a href='/research'>Research</a></li>
+  <li><a href='/teaching'>Teaching</a></li>
 </ul>
 
     Welcome to my website! I hold a Ph.D. in Economics from 

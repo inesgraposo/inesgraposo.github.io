@@ -3,6 +3,9 @@ layout: default
 title: Teaching
 ---
 
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+
+
 <ul class="nav-menu">
   <li><a href="{{ site.baseurl }}/">Home</a></li>
   <li><a href="{{ site.baseurl }}/research">Research</a></li>

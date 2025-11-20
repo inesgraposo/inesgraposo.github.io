@@ -26,9 +26,16 @@ description: "Inês Gonçalves Raposo - PhD"
     I am an applied macroeconomist. My current research focuses on the impact of heterogeneous expectations in the labor market. I combine microeconomic data and macroeconomic models to understand how workers' expectations influence decision-making and aggregate outcomes.
   </p>
 
-  <p>
-    I will be joining the Monetary Policy and Economic Outlook Division of Banca d'Italia in September 2025.
-  </p> 
+ <p>
+    I am a Research Felloow at the Monetary Policy and Economic Outlook Division of Banca d'Italia since September 2025.
+ 
+ </p> 
 
   <p>
-    You can reach me at <a href="mail
+    You can reach me at <a href="mailto:ines.goncalves@phd.unibocconi.it">ines.goncalves@phd.unibocconi.it</a>.
+  </p>
+
+  <p>
+    You can access my <a href="https://inesgraposo.github.io/raposo_jmp.pdf" target="_blank">Job Market Paper here</a>.
+  </p>
+</section>

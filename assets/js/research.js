@@ -1,12 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const abstractToggles = document.querySelectorAll('.abstract-toggle');
-
-  abstractToggles.forEach(toggle => {
-    toggle.addEventListener('click', (event) => {
-      event.preventDefault();
-      const dropdown = toggle.parentElement.nextElementSibling;
-      dropdown.classList.toggle('open');
+document.addEventListener("DOMContentLoaded", () => {
+  const toggles = document.querySelectorAll(".abstract-toggle");
+  toggles.forEach(toggle => {
+    toggle.addEventListener("click", () => {
+      const abstract = toggle.parentElement.nextElementSibling;
+      abstract.classList.toggle("open");
     });
   });
 });
-

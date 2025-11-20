@@ -1,0 +1,14 @@
+.nav-menu {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.nav-menu li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.nav-menu a {
+  color: #0d9488; /* emerald green */
+}

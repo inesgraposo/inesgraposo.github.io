@@ -4,87 +4,46 @@ title: Research
 ---
 
 
-<div class="site">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Inês Gonçalves Raposo - Research">
-  <title>Inês Gonçalves Raposo</title>
-  <link rel="stylesheet" href="menu.css">
-  <style>
-      @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab:wght@400&display=swap');
-  </style>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  </head>
+<script src="{{ site.baseurl }}/assets/js/research.js"></script>
 
-  <body>
-    <section>
-      <center><h2>Research</h2>
-        <br>
-       <ul>
-          <li><a href='./index.html'>Home</a></li>
-          <li><a href='https://inesgraposo.github.io/cv_igr.pdf'>CV</a></li>
-          <li><a href='./research.html'>Research</a></li>
-          <li><a href='./teaching.html'>Teaching</a></li>
-          <!-- <li><a href='./sayhi.html'>Say hi!</a></li> -->
-        </ul>
-        <img src="./rbanner.JPG" style="float:center;width:180px;height:180px;object-fit:cover;border-radius:50%;" />
-      </center>
-      <br>
-      <br>
-      <ul>
-        <li>
-          <div class="paper">
-            <h4>Inflation Expectations, Wages and On-the-Job Search (Job Market Paper -  <a href='https://inesgraposo.github.io/raposo_jmp.pdf' target="_blank" style="display: inline; padding:0;">Download</a>)<span class="abstract-toggle"></span></h4>
-            <div class="dropdown">
-              <p align="justify"> In this paper, I design and implement a survey of United States workers to study the causal effect of higher inflation expectations on workers’ job search decisions. I use hypothetical scenarios to decompose and quantify the impact of inflation expectations into direct and indirect effects: Direct effects are those caused by changes in inflation expectations, keeping other expectations constant. Indirect effects are caused by spill-overs from inflation expectations to expectations about the real economy. Through a within-subject design, I identify each of these effects at the individual and aggregate levels. I find that, on average, the direct effects of inflation expectations are positive and statistically significant. On average, workers associate higher inflation with higher unemployment. This produces an indirect effect that mutes average intentions to search</p>
-            </div>
-            <p> Presented at the <a href='https://res.org.uk/event-listing/res-2024-annual-conference/' target="_blank" style="display: inline; padding:0;">2024 Royal Economic Society</a> (Belfast, March 25-27 2024), at the <a href='https://www.ifo.de/en/event/2024-04-11/ifo-dresden-workshop-macroeconomics-and-international-finance-2024' target="_blank" style="display: inline; padding:0;">ifo Dresden Workshop on Macroeconomics and Finance</a> (Dresden, April 11-12 2024)</p>
-          </div>
-        </li>
-        <li>
-          <div class="paper">
-            <h4>The Part and the Whole: Unemployment Expectations of the Employed <span class="abstract-toggle"></span></h4>
-            <div class="dropdown">
-              <p align="justify"> How do workers’ beliefs about idiosyncratic unemployment risk and national unemployment change with public information? In this paper I make use of expectations data representative of the United States population to measure updates in workers’ beliefs following announcements about local and nationwide events. In particular, I focus on widely reported idiosyncratic lay-offs.  Workers update beliefs about their own job loss risk and national unemployment, even in an expansionary period with low and stable unemployment rates. A highly salient lay-off is associated to a 3.5 percentage point increase in the average reported probability of job loss and a 2.5 percentage point increase in the average reported probability of higher national unemployment. Findings are consistent with models of imperfect information where workers observe a noisy signal of the aggregate state. </p>
-            </div>
-          <p> Presented at the <a href='https://economics.unibocconi.eu/news/7th-workshop-subjective-expectations-and-phd-minicourse' target="_blank" style="display: inline; padding:0;">7th Workshop on Subjective Expectations</a> (Bocconi University, Milan, June 12-13 2023) </p>
-          </div>
-        </li>
-        <li>
-          <div class="paper">
-            <h4>Job loss beliefs, on-the-job search and wage cuts <span class="abstract-toggle"></span></h4>
-            <div class="dropdown">
-              <p align="justify">How do workers’ perceived risk of job loss affect on-the-job search and wage growth? Using a representative survey, I show that employed workers systematically over-estimate their job loss probability compared to actual separation rates into unemployment. This is at odds with models where workers decide based on perfectly observable job values. I incorporate these findings into a partial equilibrium model of job search with heterogeneous separation risk and imperfect information. In this model, workers hold dispersed priors about the job loss risk they face and learn from survival. As time advances and individuals are not laid-off from their current jobs, they perceive their jobs to be safer, become choosier and therefore are less likely to switch to a new job. Survival and learning are determined by true job loss risk. In equilibrium, job-to-job flows are driven by workers who overestimate their separation risk. Compared to full information, workers are willing to accept lower wages in exchange for higher perceived job safety.</p>
-            </div>
-        <p>Presented at the <a href="https://bse.eu/news/10th-bse-phd-jamboree"  target="_blank" style="display: inline; padding: 0;">10th BSE PhD Jamboree</a> (Barcelona, May 11-12 2023) and at the <a href="https://www.eui.eu/events?id=556235" target="_blank" style="display: inline; padding: 0;">1st EUI PhD Workshop</a> (Florence, June 20-21 2023)</p>
-          </div>
-        </li>
-    </ul>
-      <br>
-      <br>
-      <p>A list of academic and policy publications is available on my <a href='https://inesgraposo.github.io/cv_igr.pdf'>CV</a>.</p>
-    </section>
+<ul class="nav-menu">
+  <li><a href="{{ site.baseurl }}/">Home</a></li>
+  <li><a href="{{ site.baseurl }}/research">Research</a></li>
+  <li><a href="{{ site.baseurl }}/teaching">Teaching</a></li>
+  <li><a href="https://inesgraposo.github.io/cv_igr.pdf">CV</a></li>
+</ul>
 
-    <script>
-      // JavaScript code goes here
-      const abstractToggles = document.querySelectorAll('.abstract-toggle');
+ ## Research 
 
-      abstractToggles.forEach(toggle => {
-        toggle.addEventListener('click', (event) => {
-          event.preventDefault();
-          const dropdown = toggle.parentElement.nextElementSibling;
-          const isOpen = dropdown.classList.contains('open');
+---
 
-          if (isOpen) {
-            dropdown.classList.remove('open');
-          } else {
-            dropdown.classList.add('open');
-          }
-        });
-      });
-  </script>
-  </body>
+### Inflation Expectations, Wages and On-the-Job Search *(Job Market Paper)*  
+[Download PDF](https://inesgraposo.github.io/raposo_jmp.pdf)  
+<span class="abstract-toggle">[abstract]</span>
+
+<div class="abstract">
+This paper designs and implements a survey of U.S. workers to study how higher inflation expectations affect job search decisions...
 </div>
 
+---
+
+### The Part and the Whole: Unemployment Expectations of the Employed  
+<span class="abstract-toggle">[abstract]</span>
+
+<div class="abstract">
+How do workers update beliefs about idiosyncratic job loss risk and national unemployment following salient events...
+</div>
+
+---
+
+### Job Loss Beliefs, On-the-Job Search and Wage Cuts  
+<span class="abstract-toggle">[abstract]</span>
+
+<div class="abstract">
+Using a representative survey, I document that workers systematically overestimate job loss risk relative to actual separations...
+</div>
+
+---
+
+A full list of publications is available on my  
+[CV](https://inesgraposo.github.io/cv_igr.pdf).

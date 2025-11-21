@@ -18,11 +18,4 @@ aside a[href*="github.com"] {
   display: none !important;
 }
 
-header h1 {
-  font-size: 1.6rem !important; 
-}
-
-.page-header {
-  text-align: left !important;
-}
 

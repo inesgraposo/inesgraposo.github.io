@@ -17,3 +17,13 @@
 aside a[href*="github.com"] {
   display: none !important;
 }
+
+header h1 {
+  font-size: 1.6rem !important; 
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+
+

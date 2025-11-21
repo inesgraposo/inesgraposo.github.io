@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <header>
+        {% if site.logo %}
+        <img src="{{ site.logo | relative_url }}" alt="Logo" />
+        {% endif %}
+
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+
+        {% if site.description %}
+        <p>{{ site.description }}</p>
+        {% endif %}
+
+        <!-- Removed the GitHub profile line -->
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+    </div>
+
+    <footer>
+      <p>© {{ site.title }} {{ site.time | date: '%Y' }}</p>
+    </footer>
+  </body>
+</html>
 

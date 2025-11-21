@@ -15,17 +15,18 @@
     <div class="wrapper">
 
       <header>
+
         {% if site.logo %}
-        <img src="{{ site.logo | relative_url }}" alt="Logo" />
+          <img src="{{ site.logo | relative_url }}" alt="Profile photo" class="profile-pic">
         {% endif %}
 
         <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
 
         {% if site.description %}
-        <p>{{ site.description }}</p>
+          <p class="site-description">{{ site.description }}</p>
         {% endif %}
 
-        <!-- Removed the GitHub profile line -->
+        <!-- Removed GitHub link from original theme -->
       </header>
 
       <section>
@@ -33,10 +34,5 @@
       </section>
 
     </div>
-
-    <footer>
-      <p>© {{ site.title }} {{ site.time | date: '%Y' }}</p>
-    </footer>
   </body>
 </html>
-

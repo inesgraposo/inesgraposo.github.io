@@ -25,7 +25,7 @@ title: Research
   <div class="abstract">
     In this paper, I design and implement a survey of United States workers to study the causal effect of higher inflation expectations on workers’ job search decisions. I use hypothetical scenarios to decompose and quantify the impact of inflation expectations into direct and indirect effects: Direct effects are those caused by changes in inflation expectations, keeping other expectations constant. Indirect effects are caused by spill-overs from inflation expectations to expectations about the real economy. Through a within-subject design, I identify each of these effects at the individual and aggregate levels. I find that, on average, the direct effects of inflation expectations are positive and statistically significant. On average, workers associate higher inflation with higher unemployment. This produces an indirect effect that mutes average intentions to search.
   </div>
-  <p>Presented at the <a href="https://res.org.uk/event-listing/res-2024-annual-conference/">2024 Royal Economic Society</a> (Belfast, March 25–27 2024), <a href="https://www.ifo.de/en/event/2024-04-11/ifo-dresden-workshop-macroeconomics-and-international-finance-2024">ifo Dresden Workshop on Macroeconomics and Finance</a> (Dresden, April 11–12 2024), Milan PhD Economics Workshop (Milan, September 16 2024), <a href="#">HWU Workshop on Frontiers of Macro-Labour Economics</a> (Edinburgh, December 12–13 2024), <a href="https://csef.it/Event/workshop-on-frontiers-in-measurement-and-survey-methods/">Workshop on Frontiers in Measurement and Survey Methods</a> (Napoli, May 7–8 2025), DNB Macro Labor Workshop (Amsterdam, February 13 2026)</p>
+  <p>Presented at the <a href="https://res.org.uk/event-listing/res-2024-annual-conference/">2024 Royal Economic Society</a> (Belfast, March 25–27 2024), <a href="https://www.ifo.de/en/event/2024-04-11/ifo-dresden-workshop-macroeconomics-and-international-finance-2024">ifo Dresden Workshop on Macroeconomics and Finance</a> (Dresden, April 11–12 2024), <a href="https://sites.google.com/view/milanphdeconworkshop/home">Milan PhD Economics Workshop (Milan, September 16 2024)</a>, <a href="https://aefresearch.site.hw.ac.uk/call-for-papers-workshop-on-frontiers-of-macro-labour-economics/">HWU Workshop on Frontiers of Macro-Labour Economics</a> (Edinburgh, December 12–13 2024), <a href="https://csef.it/Event/workshop-on-frontiers-in-measurement-and-survey-methods/">Workshop on Frontiers in Measurement and Survey Methods</a> (Napoli, May 7–8 2025), DNB Macro Labor Workshop (Amsterdam, February 13 2026)</p>
 </div>
 
 <div class="paper">
@@ -50,5 +50,6 @@ title: Research
 
 A list of academic and policy publications is available on my  
 <a href="https://inesgraposo.github.io/cv_igr.pdf">CV</a>.
+
 
 
